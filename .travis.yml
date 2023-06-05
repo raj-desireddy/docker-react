@@ -15,7 +15,7 @@ deploy:
   app: docker-react
   env: docker-react-env
   bucket_name: elasticbeanstalk-us-east-1-258531778277
-  buket_path: docker-react
+  buket_path: docker
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
